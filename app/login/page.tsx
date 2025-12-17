@@ -63,11 +63,12 @@ export default function LoginPage() {
           </button>
         </form>
         <p className="mt-4 text-center text-sm text-gray-600">
-          Don't have an account?{" "}
+          Don't have an account?
           <Link href="/register" className="text-blue-600 hover:underline">
             Register
           </Link>
         </p>
+        <p className="text-center text-sm text-gray-600">Email: c14220331@john.petra.ac.id password: yesto123</p>
       </div>
     </div>
   );
