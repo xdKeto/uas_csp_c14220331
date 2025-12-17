@@ -21,7 +21,7 @@ export default function LoginPage() {
       Swal.fire({
         icon: 'success',
         title: 'Login Berhasil',
-        text: 'Anda akan dialihkan...',
+        text: 'Redirecting',
         timer: 1500,
         showConfirmButton: false,
       }).then(() => {
